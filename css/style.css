@@ -14,15 +14,17 @@ header article {
   top: 15px;
 }
 header article h1 {
-  font-size: 45px;
+  font-size: 40px;
 }
 header article p {
-  font-size: 20px;
+  font-size: 10px;
+  font-weight: bold;
+  color: gray;
 }
 
 #logo {
   position: absolute;
-  top: 10px;
+  top: 7px;
 }
 main {
   position: relative;
@@ -41,13 +43,22 @@ main article div h2 {
 }
 main article div p {
   position: absolute;
-  font-size: 20px;
-  top: 80px;
+  font-size: 15px;
+  top: 83px;
+  color: gray;
+
+}
+#printP {
+  position: absolute;
+  right: 0px;
+  top: 90px;
+  color: gray;
+  font-size: smaller;
 }
 #print {
   position: absolute;
-  right: 0px;
-  top: 95px;
+  right: 42px;
+  top: 90px;
 }
 #cho {
   position: absolute;
@@ -58,6 +69,7 @@ main article div p {
 #par {
   position: absolute;
   top: 900px;
+  color: gray;
 }
 
 #listimg {
@@ -69,15 +81,15 @@ main article div p {
 
 #left {
   position: absolute;
-  top: 1150px;
+  top: 1105px;
   font-size: 55px;
-  left: 30px;
+  left: 85px;
 }
 #right {
   position: absolute;
-  top: 1150px;
+  top: 1105px;
   font-size: 55px;
-  right: 30px;
+  right: 70px;
 }
 #hr2 {
   background-image: url(https://abdulelahxd.github.io/chocolate-pizza/img/hr-img.png);
@@ -88,21 +100,55 @@ main article div p {
   top: 1600px;
   width: 100%;
 }
+#vanName{
+  position: absolute;
+  top: 40px;
+  left: 80px;
+  color: rgb(100, 99, 99);
+  font-size: 20px;
+}
+#vanP {
+  position: absolute;
+  top: 70px;
+  left: 80px;
+  color: rgb(131, 131, 131);
+  font-size: 15px;
+}
 button {
   position: absolute;
   font-size: 20px;
   right: 0px;
+  top: 50px;
+  padding: 15px;
+  background-color: rgb(165, 65, 65);
+  color: rgb(189, 186, 186);
+  
 }
-footer {
-  position: relative;
-}
+
 footer article {
   position: absolute;
   top: 1800px;
   text-align: center;
   width: 100%;
 }
+footer article #fp1 {
+  position: absolute;
+  top: 50px;
+  text-align: center;
+  width: 100%;
+  color: gray;
+}
+
+footer article #fp2 {
+  position: absolute;
+  top: 69px;
+  text-align: center;
+  width: 100%;
+  color: gray;
+}
 #slogo {
   position: absolute;
   top: -7px;
+  right: 750px;
+  
 }
